@@ -1,5 +1,5 @@
 import emailjs from '@emailjs/browser';
-import { Container, CssBaseline, Grid, Typography } from '@mui/material';
+import { Button, Container, CssBaseline, Grid, Typography } from '@mui/material';
 import { useRef, useState } from 'react';
 import BannerHeader from '../Components/BannerHeader';
 import Footer from '../Components/Footer';
@@ -75,7 +75,7 @@ export default function Contact() {
                                 </div>
                                 <div className="form-group "
                                     style={{ display: "flex", alignItems: "center" }}>
-                                    <button style={{ background: "#9352b3", color: "white" }} id="submit" type="submit" >Send message</button>
+                                    <Button style={{ background: "#9352b3", color: "white" }} id="submit" type="submit" >Send message</Button>
                                     {statusSendMail ? <Typography style={{ marginLeft: "10px" }}>Mail of you sent successfully! We will check mail and respone for you soon</Typography> : ""}
                                 </div>
                             </form>

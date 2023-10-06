@@ -110,7 +110,6 @@ export default function Header() {
                             flexGrow: 1,
                             fontFamily: 'monospace',
                             fontWeight: 700,
-
                             color: 'inherit',
                             textDecoration: 'none',
                         }}

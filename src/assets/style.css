@@ -4374,7 +4374,7 @@ ul.blog-posts-widget .blog-content .blog-text span {
 
 .movie-list-1 .listing-container {
     display: flex;
-    height: 300px;
+    height: 400px;
 }
 
 
@@ -4827,7 +4827,7 @@ main .col-md-12:last-of-type .movie-list-2 {
 .movie-detail-intro2 .movie-poster {
     position: relative;
     float: left;
-   
+   margin-right: 50px;
     -webkit-box-shadow: 10px 10px 40px 0 rgba(52, 58, 64, 0.25);
     -moz-box-shadow: 10px 10px 40px 0 rgba(52, 58, 64, 0.25);
     box-shadow: 10px 10px 40px 0 rgba(52, 58, 64, 0.25);

@@ -29,8 +29,8 @@ export default function Home() {
             <Header />
             <main>
                 {/* Hero unit */}
-                <BannerHeader titles="Welcome to ChalsMovieX" />
-                <Container sx={{ py: 8 }} maxWidth="md">
+                <BannerHeader titles='ChalsMovieX' />
+                <Container sx={{ py: 8 }} fixed>
                     {/* End hero unit */}
                     <Grid container spacing={4}>
                         {listOfFilms.map((card: Film) => (
@@ -46,15 +46,6 @@ export default function Home() {
                                                 <a onClick={() => handleOpenModal(card.preview)} className="play-video">
                                                     <i className="fa fa-play"></i>
                                                 </a>
-                                            </div>
-                                            <div className="stars">
-                                                <div className="rating">
-                                                    <i className="fa fa-star"></i>
-                                                    <i className="fa fa-star"></i>
-                                                    <i className="fa fa-star"></i>
-                                                    <i className="fa fa-star"></i>
-                                                    <i className="fa fa-star-o"></i>
-                                                </div>
                                             </div>
 
 

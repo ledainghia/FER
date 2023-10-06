@@ -3,6 +3,7 @@ import createTheme from '@mui/material/styles/createTheme';
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import './assets/style.css'
+import './assets/responsive.css'
 import Contact from './Pages/Contact';
 import Detail from './Pages/Detail';
 import Home from './Pages/Home';

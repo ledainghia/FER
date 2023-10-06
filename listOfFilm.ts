@@ -16,7 +16,6 @@ export interface Film {
     country: string;
     budget: string;
     cast: string[];
-    // Thêm thông tin storyline, thể loại và cơ mà
     storyline: string;
     genre: string[];
     studio: string;

@@ -45,16 +45,15 @@ export default function Detail() {
                     <Grid container-fluid >
                         <Grid item md={12}>
                             <Grid container >
-                                <Grid item xs={6} md={4}>
+                                <Grid item xs={12} md={12}>
                                     <div className="movie-poster">
-                                        <img src={film?.image} style={{ width: '300px', height: '444px' }} alt="" />
+                                        <img src={film?.image} style={{ width: '100%' }} alt="" />
 
                                         <a href="https://www.youtube.com/watch?v=Q0CbN8sfihY" className="play-video">
                                             <i className="fa fa-play"></i>
                                         </a>
                                     </div>
-                                </Grid>
-                                <Grid item xs={6} md={8}>
+
                                     <div className="movie-details">
                                         <h3 className="title">{film?.name}</h3>
 
